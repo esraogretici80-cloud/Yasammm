@@ -1,0 +1,15 @@
+REPLIT KURULUMU — TELEFONDAN
+
+1) ZIP'i Replit'e import et.
+2) Shell/Console alanında npm install çalıştır.
+3) Replit Secrets bölümüne DISCORD_TOKEN, CLIENT_ID, GUILD_ID ve .env.example dosyasında anlatılan isteğe bağlı değerleri ekle.
+4) Discord Developer Portal'da uygulama ve bot oluşturulup sunucuya davet edildikten sonra npm run deploy komutunu bir kez çalıştır.
+5) npm start ile çalıştır.
+
+TOKEN GÜVENLİĞİ
+- Tokeni sohbete, ekran görüntüsüne veya kaynak koda koyma.
+- Sadece Replit Secrets alanına ekle.
+- Token sızarsa Developer Portal'dan sıfırla.
+- Bot rolünü işlem yapacağı rollerin üstüne taşımadan kick/ban/timeout çalışmayabilir.
+
+Bu başlangıç paketi temel RP etkinliği ve moderasyon içindir. Destek bileti ve whitelist gibi gelişmiş özellikler ayrı geliştirme aşamalarında eklenmelidir.
